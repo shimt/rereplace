@@ -25,14 +25,12 @@ if platform.system() == 'Windows':
                 "includes": [
                 ],
                 "excludes": [
-                    '_ctypes',
                     '_dummy_thread',
                     '_ssl',
                     '_threading_local',
                     'base64',
                     'bz2',
                     'calendar',
-                    'contextlib',
                     'distutils',
                     'doctest',
                     'dummy_threading',
@@ -54,7 +52,6 @@ if platform.system() == 'Windows':
                     'threading',
                     'traceback',
                     'unittest',
-                    'warnings',
                 ],
                 "dll_excludes": [
                 ],
